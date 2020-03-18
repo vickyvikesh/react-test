@@ -1,0 +1,32 @@
+table{
+    width: 57%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+thead{
+    background: #07112d;
+    color: white;
+}
+tbody tr{
+    background: lightgray;
+}
+
+.container{
+    background-image: -webkit-linear-gradient(-50deg, #237efd 0%, #24b0fe 46%, #24e2ff 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    position: relative;
+}
+.container button{
+    position: absolute;
+    right: 157px;
+    background: blue;
+    padding: 10px 19px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
